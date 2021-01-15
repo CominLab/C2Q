@@ -20,8 +20,11 @@ The program c2q requires 4 mandatory arguments
 c2q [k] [list] [type] [M]
 
 k k-mer length
+
 list a file containing a list of input sequences file in the form [fast file] [seq name]
+
 type either Q for quality value based output or A for non quality output
+
 M length of the reads (needed to compute averages)
 
 To run the provided example with k=5 use the command
